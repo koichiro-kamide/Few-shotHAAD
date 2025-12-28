@@ -37,6 +37,8 @@ checkpoints_paper/
 ├── encoder.p
 └── humanmac.pt
 ```
+
+## Expected project structure
 ```text
 Few-ShotHAAD/
 ├── checkpoints_paper/
@@ -45,6 +47,7 @@ Few-ShotHAAD/
 └── data/
     └── humanact12poses.pkl
 ```
+
 
 ## How to use HAAD
 
