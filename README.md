@@ -23,24 +23,20 @@ We do not redistribute the dataset in this repository. Please download it from t
 data/humanact12poses.pkl
 ```
 
-### 3. Download the checkpoitns
+### 3. Download the checkpoints
+Please download from:
+- https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
 
-Please download from [here](https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing).
-- Unzip ``checkpoints_paper.zip``
-- Move them to
+Steps:
+1. Unzip `checkpoints_paper.zip`
+2. Move the extracted folder to `checkpoints_paper/`
+
+Expected directory structure:
 ```text
 checkpoints_paper/
 ├── encoder.p
-└── humanmac.pt`
+└── humanmac.pt
 ```
-
-This will download the SMPL neutral model from this [**github repo**](https://github.com/classner/up/blob/master/models/3D/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl) and additionnal files.
-
-If you want to integrate the male and the female versions, you must:
-- Download the models from the [**SMPL website**](https://smpl.is.tue.mpg.de/)
-- Move them to ``models/smpl``
-- Change the ``SMPL_MODEL_PATH`` variable in ``src/config.py`` accordingly.
-
 
 
 ## How to use HAAD
