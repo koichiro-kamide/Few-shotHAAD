@@ -37,7 +37,14 @@ checkpoints_paper/
 ├── encoder.p
 └── humanmac.pt
 ```
-
+```text
+Few-ShotHAAD/
+├── checkpoints_paper/
+│   ├── encoder.p
+│   └── humanmac.pt
+└── data/
+    └── humanact12poses.pkl
+```
 
 ## How to use HAAD
 
