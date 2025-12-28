@@ -2,21 +2,20 @@
 
 ## Installation :construction_worker:
 ### 1. Create conda environment
-
 ```bash
 conda create -n haad python=3.8
 conda activate haad
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
 pip install -r requirements.txt
 ```
-
 The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
-### 2. Download the dataset
-**For all the datasets, be sure to read and follow their license agreements, and cite them accordingly.**
 
-For reproducibility, we use the **post-processed HumanAct12 SMPL pose file** provided by the ACTOR project:
-- humanact12poses.pkl
+### 2. Download the dataset
+**Important:** For the HumanAct12 dataset, please read and follow their license agreements and cite them accordingly.
+
+For reproducibility, we use the **post-processed HumanAct12 file** provided by the ACTOR project:
+- humanact12poses.pkl  
 We do not redistribute the dataset in this repository. Please download it from the ACTOR dataset page and place it as follows:
 - ACTOR dataset page: https://github.com/Mathux/ACTOR/blob/master/DATASETS.md
 - Place the downloaded file here:
@@ -28,7 +27,12 @@ data/humanact12poses.pkl
 
 Please download from [here](https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing).
 - Unzip ``checkpoints_paper.zip``
-- Move them to ``checkpoints_paper/``
+- Move them to
+```text
+checkpoints_paper/
+├── encoder.p
+└── humanmac.pt`
+```
 
 This will download the SMPL neutral model from this [**github repo**](https://github.com/classner/up/blob/master/models/3D/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl) and additionnal files.
 
