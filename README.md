@@ -25,7 +25,9 @@ data/humanact12poses.pkl
 
 ### 3. Download the checkpoints
 Please download from:
-- https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
+```
+https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
+```
 
 Steps:
 1. Unzip `checkpoints_paper.zip`
