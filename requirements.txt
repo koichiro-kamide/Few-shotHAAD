@@ -1,0 +1,11 @@
+tensorboard
+matplotlib
+ipdb
+scikit-learn
+pandas
+tqdm
+imageio
+pyyaml
+smplx
+chumpy
+numpy
