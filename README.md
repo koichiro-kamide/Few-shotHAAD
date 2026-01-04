@@ -44,7 +44,7 @@ From the repository root, run:
 ```bash
 bash run_train.sh
 ```
-### Evaluation :mag:
+### Evaluation :clipboard:
 From the repository root, run:
 ```bash
 bash run_test.sh
