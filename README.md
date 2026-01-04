@@ -79,7 +79,7 @@ If you find this code helpful in your research, please consider citing our paper
   author={Kamide, Koichiro and Sakai, Shunsuke and Maeda, Shun and Gu, Chunzhi and Zhang, Chao},
   journal={Knowledge-Based Systems},
   pages={115133},
-  year={2025},
+  year={2026},
   publisher={Elsevier}
 }
 ```
