@@ -4,7 +4,7 @@
 This project includes code adapted from PyTorch3D (BSD 3-Clause):
 https://github.com/facebookresearch/pytorch3d
 
-See `src/utils/PYTORCH3D_LICENSE`
+The license is here: `src/utils/PYTORCH3D_LICENSE`
 
 ### HumanMAC
 This repository includes code adapted from HumanMAC:
