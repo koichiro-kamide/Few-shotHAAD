@@ -37,23 +37,6 @@ repository root/
     └── humanmac.pt
 ```
 
-<!-- Please download from:
-- https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
-
-Steps:
-1. Unzip `checkpoints_paper.zip`
-2. Move the extracted folder to `checkpoints_paper/` -->
-<!-- 
-## Expected project structure
-```text
-Few-ShotHAAD/
-├── checkpoints_paper/
-│   ├── encoder.p
-│   └── humanmac.pt
-└── data/
-    └── humanact12poses.pkl
-``` -->
-
 
 ## How to use HAAD
 
