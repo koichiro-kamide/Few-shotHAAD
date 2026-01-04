@@ -3,10 +3,8 @@
 ## Installation :construction_worker:
 ### 1. Create conda environment
 ```bash
-conda create -n haad python=3.8
+bash prepare/create_env.sh
 conda activate haad
-conda install pytorch==1.8.1 torchvision==0.9.1 torchaudio==0.8.1 cudatoolkit=10.2 -c pytorch
-pip install -r requirements.txt
 ```
 The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
