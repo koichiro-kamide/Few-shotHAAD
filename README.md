@@ -1,4 +1,5 @@
-# [Few-shot human action anomaly detection via a unified contrastive learning framework](https://www.sciencedirect.com/science/article/pii/S0950705125021689)
+# Few-shotHAAD
+Official implementation of [Few-shot human action anomaly detection via a unified contrastive learning framework](https://www.sciencedirect.com/science/article/pii/S0950705125021689), [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems).
 
 ## Installation :construction_worker:
 ### 1. Create conda environment
