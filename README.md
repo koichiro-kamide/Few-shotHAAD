@@ -9,18 +9,12 @@ conda activate haad
 ```
 
 ### 2. Download the dataset
-**Important:** For the HumanAct12 dataset, please read and follow their license agreements and cite them accordingly.
+**Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
-From the repository root, run:
-```bash
-bash prepare/download_dataset.sh
-```
+Please download **post-processed HumanAct12 file** provided by the ACTOR project:
+- [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
-For reproducibility, we use the **post-processed HumanAct12 file** provided by the ACTOR project:
-- humanact12poses.pkl  
-We do not redistribute the dataset in this repository. Please download it from the ACTOR dataset page and place it as follows:
-- ACTOR dataset page: https://github.com/Mathux/ACTOR/blob/master/DATASETS.md
-- Place the downloaded file here:
+Then, place the downloaded file here:
 ```
 repository root/data/HumanAct12Poses/humanact12poses.pkl
 ```
