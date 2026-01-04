@@ -51,7 +51,7 @@ bash run_test.sh
 ```
 
 
-## Acknowledgements
+## :handshake: Acknowledgements
 This work was supported by JSPS KAKENHI Grant Number 23K10712.
 
 We thank the authors of the datasets and open-source projects used in this repository and our experiments, including:
