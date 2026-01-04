@@ -47,9 +47,18 @@ bash run_test.sh
 
 
 ## Acknowledgements
+This work was supported by JSPS KAKENHI Grant Number 23K10712.
+
+We thank the authors of the datasets and open-source projects used in this repository and our experiments, including:
+- **Dataset:** HumanAct12 (please follow the original license/terms and cite accordingly).
+- **[ACTOR](https://github.com/Mathux/ACTOR):** We refer to the ACTOR project for dataset preparation instructions and related resources.
+- **[HumanMAC](https://github.com/LinghaoChan/HumanMAC):** This repository includes code adapted from HumanMAC under MIT License.
+- **[PyTorch3D](https://github.com/facebookresearch/pytorch3d):** This repository includes code adapted from PyTorch3D (BSD 3-Clause).
+
+See `NOTICE.md` for third-party license notices.
 
 
 ## License
-This code is distributed under an [MIT LICENSE](LICENSE).
+This code is distributed under the [MIT License](LICENSE).
 
-Note that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.
+Note that this repository depends on third-party libraries and includes/adapts third-party code and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
