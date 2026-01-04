@@ -59,52 +59,16 @@ Few-ShotHAAD/
 
 ### HumanAct12
 #### Training
-use run.sh file.
-
-### UESTC
-#### Training
-use run_uestc.sh file.
+From the repository root, run:
+```bash
+bash run_train.sh
+```
 
 ### Evaluation
+From the repository root, run:
 ```bash
-python -m src.evaluate.evaluate_cvae PATH/TO/checkpoint_XXXX.pth.tar --batch_size 64 --niter 20
+bash run_test.sh
 ```
-This script will evaluate the trained model, on the epoch ``XXXX``, with 20 different seeds, and put all the results in ``PATH/TO/evaluation_metrics_XXXX_all.yaml``.
-
-If you want to get a table with mean and interval, you can use this script:
-
-```bash
-python -m src.evaluate.tables.easy_table PATH/TO/evaluation_metrics_XXXX_all.yaml
-```
-
-### Visualization
-#### Grid of stick figures
-```bash
- python -m src.visualize.visualize_checkpoint PATH/TO/CHECKPOINT.tar --num_actions_to_sample 5  --num_samples_per_action 5
-```
-
-
-### Generating and rendering SMPL meshes
-#### Additional dependencies
-``` bash
-pip install trimesh
-pip install pyrender
-pip install imageio-ffmpeg
-```
-
-#### Generate motions
-```bash
-python -m src.generate.generate_sequences PATH/TO/CHECKPOINT.tar --num_samples_per_action 10 --cpu
-```
-
-It will generate 10 samples per action, and store them in ``PATH/TO/generation.npy``.
-
-#### Render motions
-``` bash
-python -m src.render.rendermotion PATH/TO/generation.npy
-```
-
-It will render the sequences into this folder ``PATH/TO/generation/``.
 
 
 ## License
