@@ -38,13 +38,13 @@ checkpoints_paper/
 ```
 
 
-## Run Experiments
-### Training
+## Run Experiments :rocket:
+### Training :fire:
 From the repository root, run:
 ```bash
 bash run_train.sh
 ```
-### Evaluation
+### Evaluation :mag:
 From the repository root, run:
 ```bash
 bash run_test.sh
