@@ -2,6 +2,7 @@
 
 ## Installation :construction_worker:
 ### 1. Create conda environment
+From the repository root, run:
 ```bash
 bash prepare/create_env.sh
 conda activate haad
@@ -24,20 +25,24 @@ Few-ShotHAAD/
 ```
 
 ### 3. Download the checkpoints
-Please download from:
-- https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
-
-Steps:
-1. Unzip `checkpoints_paper.zip`
-2. Move the extracted folder to `checkpoints_paper/`
-
-Expected directory structure:
+From the repository root, run:
+```bash
+bash prepare/download_checkpoints.sh
+```
+This script downloads the checkpoint archive from Google Drive and places the files as:
 ```text
 Few-ShotHAAD/
 └── checkpoints_paper/
     ├── encoder.p
     └── humanmac.pt
 ```
+
+<!-- Please download from:
+- https://drive.google.com/file/d/1n2iBoivKGJpyDGSs4RDMrLDNU88cGLSA/view?usp=sharing
+
+Steps:
+1. Unzip `checkpoints_paper.zip`
+2. Move the extracted folder to `checkpoints_paper/` -->
 
 ## Expected project structure
 ```text
