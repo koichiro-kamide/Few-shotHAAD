@@ -40,7 +40,7 @@ repository root/
 
 ## How to use HAAD
 
-#### Training
+### Training
 From the repository root, run:
 ```bash
 bash run_train.sh
