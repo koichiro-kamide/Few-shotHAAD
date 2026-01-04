@@ -6,7 +6,7 @@ Overview of the proposed framework:
 
 
 ## :construction_worker: Installation
-### :wrench: 1. Create conda environment
+### :gear: 1. Create conda environment
 From the repository root, run:
 ```bash
 bash prepare/create_env.sh
