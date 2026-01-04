@@ -31,7 +31,7 @@ bash prepare/download_checkpoints.sh
 ```
 This script downloads the checkpoint archive from Google Drive and places the files as:
 ```text
-Few-ShotHAAD/
+repository root/
 └── checkpoints_paper/
     ├── encoder.p
     └── humanmac.pt
@@ -43,7 +43,7 @@ Few-ShotHAAD/
 Steps:
 1. Unzip `checkpoints_paper.zip`
 2. Move the extracted folder to `checkpoints_paper/` -->
-
+<!-- 
 ## Expected project structure
 ```text
 Few-ShotHAAD/
@@ -52,7 +52,7 @@ Few-ShotHAAD/
 │   └── humanmac.pt
 └── data/
     └── humanact12poses.pkl
-```
+``` -->
 
 
 ## How to use HAAD
