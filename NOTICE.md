@@ -4,11 +4,10 @@
 This project includes code adapted from PyTorch3D (BSD 3-Clause):
 https://github.com/facebookresearch/pytorch3d
 
-The license is here: `src/utils/PYTORCH3D_LICENSE`
+The license is available at: `src/utils/PYTORCH3D_LICENSE`
 
 ### HumanMAC
-This repository includes code adapted from HumanMAC:
+This repository includes code adapted from HumanMAC (MIT License) under `src/models/humanmac/`:
 https://github.com/LinghaoChan/HumanMAC
 
-HumanMAC is licensed under the MIT License. See:
-`src/models/humanmac/HumanMAC_LICENSE`
+The license is available at: `src/models/humanmac/HumanMAC_LICENSE`
