@@ -7,7 +7,6 @@ From the repository root, run:
 bash prepare/create_env.sh
 conda activate haad
 ```
-The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
 
 ### 2. Download the dataset
