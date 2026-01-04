@@ -51,8 +51,8 @@ This work was supported by JSPS KAKENHI Grant Number 23K10712.
 
 We thank the authors of the datasets and open-source projects used in this repository and our experiments, including:
 - **[HumanAct12](https://ericguo5513.github.io/action-to-motion/):** We used HumanAct12 (please follow the original license/terms and cite accordingly).
-- **[ACTOR](https://github.com/Mathux/ACTOR):** We refer to the ACTOR project for dataset preparation instructions and related resources.
-- **[HumanMAC](https://github.com/LinghaoChan/HumanMAC):** This repository includes code adapted from HumanMAC under MIT License.
+- **[ACTOR](https://github.com/Mathux/ACTOR):** We refer to ACTOR for dataset preparation instructions and related resources.
+- **[HumanMAC](https://github.com/LinghaoChan/HumanMAC):** This repository includes code adapted from HumanMAC (MIT License).
 - **[PyTorch3D](https://github.com/facebookresearch/pytorch3d):** This repository includes code adapted from PyTorch3D (BSD 3-Clause).
 
 See [`NOTICE.md`](NOTICE.md) for third-party license notices.
@@ -61,4 +61,4 @@ See [`NOTICE.md`](NOTICE.md) for third-party license notices.
 ## License
 This code is distributed under the [MIT License](LICENSE).
 
-Note that this repository depends on third-party libraries and includes/adapts third-party code and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
+This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
