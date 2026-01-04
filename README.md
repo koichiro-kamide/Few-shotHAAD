@@ -15,7 +15,7 @@ Please download **post-processed HumanAct12 file** by following the instructions
 - [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
 After downloading, extract the archive and place the extracted file at:
-`<repository_root>/data/HumanAct12Poses/humanact12poses.pkl`
+``<repository_root>/data/HumanAct12Poses/humanact12poses.pkl``
 
 ### 3. Download the checkpoints
 From the repository root, run:
