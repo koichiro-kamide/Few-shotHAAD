@@ -69,7 +69,7 @@ This code is distributed under the [MIT License](LICENSE).
 This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
 
 
-## :clip: Citation
+## :link: Citation
 Please consider citing our paper if you find it helpful in your research:
 ```text
 @article{kamide2025few,
