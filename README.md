@@ -5,7 +5,7 @@ Overview of the proposed framework:
 ![Framework](figure/framework.png)
 
 
-## Installation :construction_worker:
+## :construction_worker: Installation
 ### 1. Create conda environment
 From the repository root, run:
 ```bash
@@ -38,13 +38,13 @@ checkpoints_paper/
 ```
 
 
-## Run Experiments :rocket:
-### Training :fire:
+## :rocket: Run Experiments
+### :fire: Training
 From the repository root, run:
 ```bash
 bash run_train.sh
 ```
-### Evaluation :clipboard:
+### :clipboard: Evaluation
 From the repository root, run:
 ```bash
 bash run_test.sh
