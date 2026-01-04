@@ -1,0 +1,1 @@
+This project includes code derived from PyTorch3D (BSD 3-Clause). See PYTORCH3D_LICENSE.md.
