@@ -70,7 +70,7 @@ This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanM
 
 
 ## :link: Citation
-Please consider citing our paper if you find it helpful in your research:
+If you find this code helpful in your research, please consider citing our paper:
 ```text
 @article{kamide2025few,
   title={Few-shot human action anomaly detection via a unified contrastive learning framework},
