@@ -14,7 +14,7 @@ conda activate haad
 ```
 The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
-### :inbox_tray: 2. Download the HumanAct12 dataset
+### :file_folder: 2. Download the HumanAct12 dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
 Please download the post-processed HumanAct12 file by following the instructions in the ACTOR project:
