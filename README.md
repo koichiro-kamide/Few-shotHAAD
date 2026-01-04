@@ -60,13 +60,13 @@ We thank the authors of the datasets and open-source projects used in this repos
 - **[HumanMAC](https://github.com/LinghaoChan/HumanMAC):** This repository includes code adapted from HumanMAC (MIT License).
 - **[PyTorch3D](https://github.com/facebookresearch/pytorch3d):** This repository includes code adapted from PyTorch3D (BSD 3-Clause).
 
-See [`NOTICE.md`](NOTICE.md) for third-party license notices.
-
 
 ## :scroll: License
 This code is distributed under the [MIT License](LICENSE).
 
 This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
+
+See [`NOTICE.md`](NOTICE.md) for third-party license notices.
 
 
 ## :link: Citation
