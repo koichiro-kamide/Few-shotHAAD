@@ -1,0 +1,39 @@
+# CITATION.cff
+cff-version: 1.2.0
+message: "If you use this software, please cite the following paper."
+title: "Few-shotHAAD"
+type: software
+license: "MIT"
+repository-code: "https://github.com/koichiro-kamide/Few-shotHAAD"
+url: "https://github.com/koichiro-kamide/Few-shotHAAD"
+authors:
+  - family-names: Kamide
+    given-names: Koichiro
+  - family-names: Sakai
+    given-names: Shunsuke
+  - family-names: Maeda
+    given-names: Shun
+  - family-names: Gu
+    given-names: Chunzhi
+  - family-names: Zhang
+    given-names: Chao
+
+preferred-citation:
+  type: article
+  title: "Few-shot human action anomaly detection via a unified contrastive learning framework"
+  journal: "Knowledge-Based Systems"
+  volume: 334
+  pages: 115133
+  date-published: 2026-02-15
+  doi: "10.1016/j.knosys.2025.115133"
+  authors:
+    - family-names: Kamide
+      given-names: Koichiro
+    - family-names: Sakai
+      given-names: Shunsuke
+    - family-names: Maeda
+      given-names: Shun
+    - family-names: Gu
+      given-names: Chunzhi
+    - family-names: Zhang
+      given-names: Chao
