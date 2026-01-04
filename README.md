@@ -8,9 +8,13 @@ bash prepare/create_env.sh
 conda activate haad
 ```
 
-
 ### 2. Download the dataset
 **Important:** For the HumanAct12 dataset, please read and follow their license agreements and cite them accordingly.
+
+From the repository root, run:
+```bash
+bash prepare/download_dataset.sh
+```
 
 For reproducibility, we use the **post-processed HumanAct12 file** provided by the ACTOR project:
 - humanact12poses.pkl  
@@ -18,15 +22,13 @@ We do not redistribute the dataset in this repository. Please download it from t
 - ACTOR dataset page: https://github.com/Mathux/ACTOR/blob/master/DATASETS.md
 - Place the downloaded file here:
 ```
-repository root/
-└── data/
-    └── humanact12poses.pkl
+repository root/data/HumanAct12Poses/humanact12poses.pkl
 ```
 
 ### 3. Download the checkpoints
 From the repository root, run:
 ```bash
-bash prepare/download_checkpoints.sh
+bash prepare/download_checkpoint.sh
 ```
 This script downloads the checkpoint archive from Google Drive and places the files as:
 ```text
@@ -37,14 +39,12 @@ repository root/
 ```
 
 
-## How to use HAAD
-
+## Run Experiments
 ### Training
 From the repository root, run:
 ```bash
 bash run_train.sh
 ```
-
 ### Evaluation
 From the repository root, run:
 ```bash
