@@ -5,7 +5,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROJECT_DIR="$( dirname "$SCRIPT_DIR" )"
 cd "$PROJECT_DIR"
 
-ENV_NAME="haad7"
+ENV_NAME="haad"
 PY_VER="3.8"
 REQ_FILE="$SCRIPT_DIR/requirements.txt"
 
