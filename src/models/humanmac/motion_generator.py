@@ -28,7 +28,7 @@ def get_model_and_diffusion(parameters, dct_m_all, idct_m_all):
         n_pred=parameters["n_pred"]
     )
 
-    ckpt = torch.load(f'./checkpoints_paper/humanmac.pt', map_location='cpu', weights_only=True)
+    ckpt = torch.load(f'./checkpoints_paper/humanmac.pt', map_location='cpu')
     model.load_state_dict(ckpt)
     model = model.to(parameters["device"])
 
