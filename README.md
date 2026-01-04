@@ -40,7 +40,6 @@ repository root/
 
 ## How to use HAAD
 
-### HumanAct12
 #### Training
 From the repository root, run:
 ```bash
