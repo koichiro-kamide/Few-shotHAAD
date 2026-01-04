@@ -14,7 +14,7 @@ conda activate haad
 ```
 The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
-### :file_folder: 2. Download the HumanAct12 dataset
+### :package: 2. Download the HumanAct12 dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
 Please download the post-processed HumanAct12 file by following the instructions in the ACTOR project:
@@ -25,7 +25,7 @@ After downloading, extract the archive and place the extracted file at:
 data/HumanAct12Poses/humanact12poses.pkl
 ```
 
-### :package: 3. Download the checkpoints
+### :file_folder: 3. Download the checkpoints
 From the repository root, run:
 ```bash
 bash prepare/download_checkpoint.sh
