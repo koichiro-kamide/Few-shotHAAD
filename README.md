@@ -51,7 +51,7 @@ bash run_test.sh
 ```
 
 
-## :handshake: Acknowledgements
+## :Praying: Acknowledgements
 This work was supported by JSPS KAKENHI Grant Number 23K10712.
 
 We thank the authors of the datasets and open-source projects used in this repository and our experiments, including:
@@ -69,7 +69,7 @@ This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanM
 See [`NOTICE.md`](NOTICE.md) for third-party license notices.
 
 
-## :link: Citation
+## :handshake: Citation
 If you find this code helpful in your research, please consider citing our paper:
 ```text
 @article{kamide2025few,
