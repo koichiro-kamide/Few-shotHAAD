@@ -16,7 +16,7 @@ Please download **post-processed HumanAct12 file** by following the instructions
 
 Then, place the downloaded file here:
 ```
-repository root/data/HumanAct12Poses/humanact12poses.pkl
+<repository_root>/data/HumanAct12Poses/humanact12poses.pkl
 ```
 
 ### 3. Download the checkpoints
@@ -26,7 +26,7 @@ bash prepare/download_checkpoint.sh
 ```
 This script downloads the checkpoint archive from Google Drive and places the files as:
 ```text
-repository root/
+<repository_root>/
 └── checkpoints_paper/
     ├── encoder.p
     └── humanmac.pt
