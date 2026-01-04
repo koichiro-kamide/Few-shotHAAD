@@ -155,6 +155,7 @@ if __name__ == '__main__':
         logger.info(f"{k}: {v}")
     logger.info(f">>> Total params: {sum(p.numel() for p in encoder.parameters()) / 1_000_000:.2f}M")
     logger.info(">>> Training encoder..")
+    print('>>> Training encoder..')
 
     # start train
     encoder.to(parameters["device"])

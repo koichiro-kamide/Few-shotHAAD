@@ -59,9 +59,10 @@ def augment_train_dataset(parameters, logger):
     # === Data augmentation for training ===
     print(">>> Augmenting train data..")
     augmented_trainset = []
-    for cat_indexes in tqdm(train_cat_indexes):
+    for cur_cat, cat_indexes in enumerate(train_cat_indexes):
         cat_samples = []
-        for index in cat_indexes:
+        print(f'>>> Augmenting category{cur_cat:>2}')
+        for index in tqdm(cat_indexes):
             t_s = time.time()
             # Original motion sample: (H, J, C)
             sample = motion_set[index].to(parameters["device"]).float()
