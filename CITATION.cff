@@ -6,6 +6,7 @@ type: software
 license: "MIT"
 repository-code: "https://github.com/koichiro-kamide/Few-shotHAAD"
 url: "https://github.com/koichiro-kamide/Few-shotHAAD"
+doi: "10.5281/zenodo.18147989"
 authors:
   - family-names: Kamide
     given-names: Koichiro
