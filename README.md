@@ -11,7 +11,7 @@ conda activate haad
 ### 2. Download the dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
-Please download **post-processed HumanAct12 file** provided by the ACTOR project:
+Please download **post-processed HumanAct12 file** by following the instructions in the ACTOR project:
 - [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
 Then, place the downloaded file here:
