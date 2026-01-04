@@ -9,6 +9,7 @@ for item in "${actions[@]}"
 do
     python -m src.framework.test \
     --run_mode test \
+    --checkpoint_path checkpoints_paper/encoder.p \
     --seed 0 \
     --cuda_index 0 \
     --num_support 3 \
@@ -17,4 +18,3 @@ do
     --num_epochs 1 \
     --normal_action "$item"
 done
-# --checkpoint_path checkpoints/20251229_034100/encoder101.p \
