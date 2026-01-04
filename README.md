@@ -1,4 +1,5 @@
 # Few-shotHAAD
+[![Paper](https://img.shields.io/badge/Paper-10.1016%2Fj.knosys.2025.115133-blue)](https://doi.org/10.1016/j.knosys.2025.115133)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18147989.svg)](https://doi.org/10.5281/zenodo.18147989)
 
 Official implementation of [**"Few-shot human action anomaly detection via a unified contrastive learning framework"**](https://www.sciencedirect.com/science/article/pii/S0950705125021689), [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems).
