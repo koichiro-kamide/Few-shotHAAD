@@ -63,7 +63,7 @@ We thank the authors of the datasets and open-source projects used in this repos
 See [`NOTICE.md`](NOTICE.md) for third-party license notices.
 
 
-## License
+## :scroll: License
 This code is distributed under the [MIT License](LICENSE).
 
 This repository uses third-party libraries and datasets (e.g., PyTorch3D, HumanMAC, HumanAct12), each of which has its own license/terms that must also be followed.
