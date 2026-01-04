@@ -57,7 +57,10 @@ def calc_ave_dist(support_embeddings, test_embeddings):
 
 
 def val():
-    print(f'action:{parameters["normal_action"]}, seed:{parameters["seed"]}, num_augment:{parameters["num_augment"]}')
+    print(f'action:{parameters["normal_action"]}  '
+          f'seed:{parameters["seed"]}  '
+          f'num_support:{parameters["num_support"]}  '
+          f'num_augment:{parameters["num_augment"]}')
 
     # Build support embeddings (normal reference set) and test embeddings
     support_embeddings = build_support_embeddings(support_set, encoder)

@@ -186,7 +186,7 @@ class Dataset(torch.utils.data.Dataset):
 
     def support_dataloader(self):
         samp = []
-        print(f'suport set:{self._support}')
+        # print(f'suport set:{self._support}')
         for i in self._support:
             seq = self.seq_sampler(data_index=i)
             samp.append(seq.unsqueeze(dim=0))
