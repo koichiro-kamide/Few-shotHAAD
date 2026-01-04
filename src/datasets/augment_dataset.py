@@ -27,7 +27,7 @@ def augment_train_dataset(parameters, logger):
             with shape (1 + num_augment, H, J, C)
     """
     # === Load dataset ===
-    data_file = "./data/humanact12poses.pkl"
+    data_file = "./data/HumanAct12Poses/humanact12poses.pkl"
     dataset = pkl.load(open(data_file, "rb"))
 
     # === Preprocess motion data ===

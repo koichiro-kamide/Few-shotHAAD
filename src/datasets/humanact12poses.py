@@ -9,7 +9,7 @@ from src.datasets.skeleton import Skeleton
 class HumanAct12Poses(Dataset):
     dataname = "humanact12"
 
-    def __init__(self, normal_action_name=None, datapath="data", **kargs):
+    def __init__(self, normal_action_name=None, datapath="data/HumanAct12Poses", **kargs):
         '''
         Definition of action-related terminology:
         - label: dataset index of each sample
