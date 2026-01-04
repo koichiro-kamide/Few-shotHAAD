@@ -6,7 +6,7 @@ Overview of the proposed framework:
 
 
 ## :construction_worker: Installation
-### :file_folder: 1. Create conda environment
+### :gear: 1. Create conda environment
 From the repository root, run:
 ```bash
 bash prepare/create_env.sh
@@ -14,7 +14,7 @@ conda activate haad
 ```
 The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 
-### :ledger: 2. Download the HumanAct12 dataset
+### :file_folder: 2. Download the HumanAct12 dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
 Please download the post-processed HumanAct12 file by following the instructions in the ACTOR project:
