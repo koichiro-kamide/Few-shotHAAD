@@ -25,7 +25,7 @@ After downloading, extract the archive and place the extracted file at:
 data/HumanAct12Poses/humanact12poses.pkl
 ```
 
-### 3. :Page Facing Up: Download the checkpoints
+### 3. 📄 Download the checkpoints
 From the repository root, run:
 ```bash
 bash prepare/download_checkpoint.sh
