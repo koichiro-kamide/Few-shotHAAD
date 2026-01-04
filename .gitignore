@@ -1,3 +1,8 @@
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Datasets / checkpoints (do not track)
+data/
+checkpoints/
+checkpoints_paper/
