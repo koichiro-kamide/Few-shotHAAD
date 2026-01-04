@@ -74,12 +74,13 @@ See [`NOTICE.md`](NOTICE.md) for third-party license notices.
 ## :handshake: Citation
 If you find this code helpful in your research, please consider citing our paper:
 ```text
-@article{kamide2025few,
-  title={Few-shot human action anomaly detection via a unified contrastive learning framework},
-  author={Kamide, Koichiro and Sakai, Shunsuke and Maeda, Shun and Gu, Chunzhi and Zhang, Chao},
-  journal={Knowledge-Based Systems},
-  pages={115133},
-  year={2026},
-  publisher={Elsevier}
+@article{kamide2026few,
+  title   = {Few-shot human action anomaly detection via a unified contrastive learning framework},
+  author  = {Kamide, Koichiro and Sakai, Shunsuke and Maeda, Shun and Gu, Chunzhi and Zhang, Chao},
+  journal = {Knowledge-Based Systems},
+  volume  = {334},
+  pages   = {115133},
+  year    = {2026},
+  doi     = {10.1016/j.knosys.2025.115133}
 }
 ```
