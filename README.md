@@ -12,12 +12,12 @@ conda activate haad
 ### 2. Download the HumanAct12 dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
-Please download **post-processed HumanAct12 file** by following the instructions in the ACTOR project:
+Please download the post-processed HumanAct12 file by following the instructions in the ACTOR project:
 - [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
 After downloading, extract the archive and place the extracted file at:
 ```text
-<repository_root>/data/HumanAct12Poses/humanact12poses.pkl
+data/HumanAct12Poses/humanact12poses.pkl
 ```
 
 ### 3. Download the checkpoints
@@ -27,10 +27,9 @@ bash prepare/download_checkpoint.sh
 ```
 This script downloads the checkpoint archive from Google Drive and places the files as:
 ```text
-<repository_root>/
-└── checkpoints_paper/
-    ├── encoder.p
-    └── humanmac.pt
+checkpoints_paper/
+├── encoder.p
+└── humanmac.pt
 ```
 
 
