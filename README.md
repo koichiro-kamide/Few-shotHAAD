@@ -18,7 +18,7 @@ We do not redistribute the dataset in this repository. Please download it from t
 - ACTOR dataset page: https://github.com/Mathux/ACTOR/blob/master/DATASETS.md
 - Place the downloaded file here:
 ```
-Few-ShotHAAD/
+repository root/
 └── data/
     └── humanact12poses.pkl
 ```
