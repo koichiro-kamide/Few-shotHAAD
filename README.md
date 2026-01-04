@@ -8,14 +8,16 @@ bash prepare/create_env.sh
 conda activate haad
 ```
 
-### 2. Download the dataset
+### 2. Download the HumanAct12 dataset
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
 Please download **post-processed HumanAct12 file** by following the instructions in the ACTOR project:
 - [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
 After downloading, extract the archive and place the extracted file at:
-``<repository_root>/data/HumanAct12Poses/humanact12poses.pkl``
+```text
+<repository_root>/data/HumanAct12Poses/humanact12poses.pkl
+```
 
 ### 3. Download the checkpoints
 From the repository root, run:
