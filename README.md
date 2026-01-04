@@ -18,7 +18,7 @@ The code was tested on **Python 3.8** and **PyTorch 1.7.1**.
 **Important:** Please follow the original dataset license/terms and cite the dataset accordingly.
 
 Please download the post-processed HumanAct12 file by following the instructions in the ACTOR project:
-- [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
+- :link: [ACTOR dataset page](https://github.com/Mathux/ACTOR/blob/master/DATASETS.md)
 
 After downloading, extract the archive and place the extracted file at:
 ```text
